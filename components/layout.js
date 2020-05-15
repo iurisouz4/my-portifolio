@@ -15,7 +15,10 @@ export default function Layout({ children, home }) {
           name="description"
           content="Hello, i'm Iuri Souza. I'm a software engineer..."
         />
-        <meta property="og:image" content="/images/profile.jpg" />
+        <meta
+          property="og:image"
+          content="https://sceptermarketing.com/wp-content/uploads/2017/03/dlanor-s-703975-unsplash.jpg"
+        />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
